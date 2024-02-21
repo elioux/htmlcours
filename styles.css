@@ -1,16 +1,15 @@
-.image{
-    img{
-        width: 200px;
-        height: 200px;
-        
-    }
-    #trounoir{
-        object-position: right;
-    }    
-}
-.texte{
-    width: 100px;
-    height: 100px;
-    position: relative 80px;
-}
+img{
 
+    width: 130px;
+    height: 145px;
+    
+}
+#trounoir{
+    float: right;
+} 
+#galaxie{
+    float: right;
+}
+.texte1{
+    float: center;
+}
