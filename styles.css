@@ -1,15 +1,43 @@
 img{
 
-    width: 130px;
-    height: 145px;
+    width: 175px;
+    height: 165px;
     
 }
-#trounoir{
-    float: right;
-} 
-#galaxie{
-    float: right;
-}
+
 .texte1{
-    float: center;
+    
+}
+th { width: 300px;}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#bloc-menu {
+	height: 36px;
+	background-color: rgb(39, 27, 27);
+	float: center;
+	color: white;
+}
+body{
+    background-color: rgb(39, 27, 27);
+}
+.lien{
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 175px;
+}
+.image {
+    width: 175px;
+    height: 165px;
+}
+.droite img{
+    float: right;
+    
+}
+.droite img{
+    width: 175px;
+    height: 165px;
+    float: right;
 }
