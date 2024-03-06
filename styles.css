@@ -4,6 +4,7 @@ body{
     font-family: 'Anta', sans-serif;
     background-color: rgb(39, 27, 27);
     font-size: 18px;
+    overflow-x: hidden;
 }
 th { width: 55vh}
 #bloc-menu {
@@ -13,7 +14,6 @@ th { width: 55vh}
     align-items: center; /* Centrer les éléments du menu verticalement */
 	height: auto;
 	background-color: rgb(39, 27, 27);
-	float: center;
 	color: white;
 }
 a{
