@@ -19,16 +19,48 @@ a{
     color: white;
     text-decoration: none;
 }
-
-
 #img_container{
     list-style: none;
     display: grid;
-    grid-template-columns:40% 40% ;
+    grid-template-columns:50% 50% ;
 }
 
 #img_container  .image{
-    height:40vh;
+    height:80vh;
     width: auto;
 }
+#textetrounoir{
+    display: grid;
+    grid-template-columns:50% 50% ;
+}
+#textetrounoir img{
+    height:auto;
+    width: 125vh;
+}
+#textetrounoir p{
+    height:auto;
+    width: 90vh;
 
+}
+#grid-container{
+    display: grid;
+    grid-template-columns:50% 50% ;
+}
+#grid-container img{
+    height:auto;
+    width: 90vh;
+}
+#grid-container li{
+    list-style: none;
+}
+#nébuleuse{
+    display: grid;
+    grid-template-columns:50% 50% ;
+}
+#nébuleuse img{
+    height:60vh;
+    width: auto;
+}
+#nébuleuse li{
+    list-style: none;
+}
