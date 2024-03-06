@@ -3,14 +3,15 @@ body{
     color: grey;
     font-family: 'Anta', sans-serif;
     background-color: rgb(39, 27, 27);
+    font-size: 18px;
 }
-th { width: 300px;}
+th { width: 55vh}
 #bloc-menu {
     display: flex;
     width: 100vw; /* Utilise la largeur du viewport pour que le menu prenne toute la largeur de l'écran */
     justify-content: space-around; /* Espacer les éléments du menu uniformément */
     align-items: center; /* Centrer les éléments du menu verticalement */
-	height: 36px;
+	height: auto;
 	background-color: rgb(39, 27, 27);
 	float: center;
 	color: white;
@@ -19,14 +20,22 @@ a{
     color: white;
     text-decoration: none;
 }
+li{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+#finalText{
+    font-size: large;
+}
 #img_container{
     list-style: none;
     display: grid;
     grid-template-columns:50% 50% ;
 }
-
 #img_container  .image{
-    height:80vh;
+    height:60vh;
     width: auto;
 }
 #textetrounoir{
@@ -50,8 +59,10 @@ a{
     height:auto;
     width: 90vh;
 }
-#grid-container li{
-    list-style: none;
+#grid-container p{
+    height:auto;
+    width: 90vh;
+
 }
 #nébuleuse{
     display: grid;
@@ -61,6 +72,22 @@ a{
     height:60vh;
     width: auto;
 }
-#nébuleuse li{
-    list-style: none;
+#nébuleuse p{
+    height:auto;
+    width: 90vh;
+
 }
+#galaxie{
+    display: grid;
+    grid-template-columns:50% 50% ;
+}
+#galaxie img{
+    height:auto;
+    width: 90vh;
+}
+#galaxie p{
+    height:auto;
+    width: 90vh;
+
+}
+
