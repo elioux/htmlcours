@@ -20,3 +20,15 @@ a{
     text-decoration: none;
 }
 
+
+#img_container{
+    list-style: none;
+    display: grid;
+    grid-template-columns:40% 40% ;
+}
+
+#img_container  .image{
+    height:40vh;
+    width: auto;
+}
+
